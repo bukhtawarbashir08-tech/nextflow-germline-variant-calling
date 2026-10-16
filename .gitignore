@@ -1,0 +1,60 @@
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+
+# Large input/output data
+data/
+reference/
+truth/
+results/
+
+# BAM / CRAM / VCF / FASTQ
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.g.vcf.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# BWA / reference indexes
+*.0123
+*.amb
+*.ann
+*.bwt*
+*.pac
+*.sa
+*.fai
+*.dict
+
+# Conda
+.conda/
+conda/
+
+# Temporary
+*.tmp
+*.temp
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Backup files
+*.backup
+*.bak
+*.nfy
+main.*backup*
+main.*modular*
+main.before_*
+
+# Windows metadata
+*:Zone.Identifier

@@ -1,0 +1,14 @@
+name: nf-happy
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - hap.py
+  - rtg-tools
+  - bcftools
+
+
+
+
