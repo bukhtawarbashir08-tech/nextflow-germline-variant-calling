@@ -31,3 +31,27 @@ samtools sort/index
         ↓
       MultiQC
 
+## Results
+
+Benchmarked against GIAB HG002 (GRCh38) with hap.py, inside the high-confidence regions.
+
+| Variant type | F1 |
+|---|---|
+| SNP | 0.9975 |
+| INDEL | 0.9942 |
+
+## Requirements
+
+- Nextflow (DSL2)
+- Docker or Conda
+- GRCh38 reference and GIAB truth set
+
+## Running it
+
+```bash
+nextflow run main.nf -profile docker \
+  --samplesheet samplesheet.csv \
+  --outdir results
+```
+
+Resume a previous run with `-resume`.
