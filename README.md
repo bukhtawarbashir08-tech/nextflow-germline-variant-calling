@@ -30,4 +30,4 @@ samtools sort/index
  GIAB hap.py benchmark
         ↓
       MultiQC
-[Workflow diagram](assets/workflow_diagram.png)
+
